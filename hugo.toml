@@ -1,0 +1,13 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Wferrell Projects'
+theme = ["hugo-embed-pdf-shortcode", "hugo-notepadium"]
+enableInlineShortcodes = true
+
+[[module.mounts]]
+source = 'static'
+target = 'static'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/assets/images'

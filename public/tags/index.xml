@@ -1,0 +1,687 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Wferrell Projects</title>
+    <link>//localhost:1313/tags/</link>
+    <description>Recent content in Tags on Wferrell Projects</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+        <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Airplane Tracker</title>
+      <link>//localhost:1313/posts/plane-tracker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/plane-tracker/</guid>
+      <description>&lt;p&gt;Software for me has always been about the web. First it was webpages, then web apps, iPhone apps, now Mac apps. But what about building something that moves in the physical world.&lt;/p&gt;
+&lt;p&gt;For this project, I wanted to combine my interest in the airplanes flying overhead (I live near SFO and OAK) &amp;ndash; and build my first &amp;ldquo;robot&amp;rdquo; that moves in the real world.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;First, the plane tracker lives in a room with no windows &amp;ndash; so no this didn’t shine in any eyes nor distract any pilots.&lt;/p&gt;
+&lt;h4 id=&#34;so-what-are-we-seeing&#34;&gt;So what are we seeing:&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;The Raspberry Pi is using &lt;a href=&#34;https://www.faa.gov/nextgen/programs/adsb/&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;ADS-B&lt;/a&gt; to track flights.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;The code (see above a screenshot of the log output) is constantly searching for nearby flights (via the SRD on my roof). Once it finds a plane, it gets the reported lat/long and then calculates the angle of elevation from the position of the RaspberrPi.&lt;/li&gt;
+&lt;li&gt;With this information, and knowing the orientation of the RaspberrPi (i.e. is the Pan/Tilt when zeroed out X degrees off North) &amp;ndash; now we can calculate the Pan degrees and Tilt degrees to point at the current position of the Airplane.&lt;/li&gt;
+&lt;li&gt;This code runs in a loop until the Airplane is out of range, then it finds the next one.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Take a look in this video:&lt;/p&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/q5BcP4a-B4w?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Avocado - Voice AI for Outcomes</title>
+      <link>//localhost:1313/posts/avocado/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/avocado/</guid>
+      <description>&lt;p&gt;Avocado is built to deliver outcomes. Whether it is for teamwork or your work, voice + transcription ensures the job gets done inhumanly fast. Its the easiest, fastest way to communicate and get simple tasks done.&lt;/p&gt;
+&lt;h3 id=&#34;turning-words-into-actions&#34;&gt;Turning Words into Actions&lt;/h3&gt;
+&lt;p&gt;&lt;img  src=&#34;./Avocado-screenshots-2020-04-14&amp;#43;at&amp;#43;12.30.06&amp;#43;PM.png&#34;
+        alt=&#34;Words into Action&#34;/&gt;&lt;/p&gt;
+&lt;h4 id=&#34;top-uses&#34;&gt;Top uses:&lt;/h4&gt;
+&lt;p&gt;&lt;img  src=&#34;./Avocado-screenshots-2020-04-14&amp;#43;at&amp;#43;12.27.37&amp;#43;PM.png&#34;
+        alt=&#34;Top uses&#34;/&gt;&lt;/p&gt;
+&lt;h4 id=&#34;talk-to-your-calendar&#34;&gt;Talk to your calendar&lt;/h4&gt;
+&lt;p&gt;&lt;img  src=&#34;./Avocado-screenshots-2020-04-14&amp;#43;at&amp;#43;12.27.49&amp;#43;PM.png&#34;
+        alt=&#34;Calendar&#34;/&gt;&lt;/p&gt;
+&lt;h4 id=&#34;voice-reminders&#34;&gt;Voice reminders&lt;/h4&gt;
+&lt;p&gt;&lt;img  src=&#34;./Avocado-screenshots-2020-04-14&amp;#43;at&amp;#43;12.27.54&amp;#43;PM.png&#34;
+        alt=&#34;Voice reminders&#34;/&gt;&lt;/p&gt;
+&lt;h4 id=&#34;take-a-note&#34;&gt;Take a note&lt;/h4&gt;
+&lt;p&gt;&lt;img  src=&#34;./Avocado-screenshots-2020-04-14&amp;#43;at&amp;#43;12.28.05&amp;#43;PM.png&#34;
+        alt=&#34;Take a note&#34;/&gt;&lt;/p&gt;
+&lt;h4 id=&#34;the-computer-in-your-ear&#34;&gt;The Computer in your ear&lt;/h4&gt;
+&lt;p&gt;&lt;img  src=&#34;./Avocado-screenshots-2020-04-14&amp;#43;at&amp;#43;12.29.40&amp;#43;PM.png&#34;
+        alt=&#34;Computer in your ear&#34;/&gt;&lt;/p&gt;
+&lt;h4 id=&#34;works-on-desktop&#34;&gt;Works on desktop&lt;/h4&gt;
+&lt;p&gt;&lt;img  src=&#34;./Avocado-screenshots-2020-04-14&amp;#43;at&amp;#43;12.29.49&amp;#43;PM.png&#34;
+        alt=&#34;Desktop&#34;/&gt;&lt;/p&gt;
+&lt;h4 id=&#34;speak-to-avocado---message--action-appears-in-slack&#34;&gt;Speak to Avocado -&amp;gt; Message &amp;amp; action appears in Slack&lt;/h4&gt;
+&lt;p&gt;&lt;img  src=&#34;./fistmessage.gif&#34;
+        alt=&#34;Slack Connect&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;And into Slack:&lt;/p&gt;
+&lt;p&gt;&lt;img  src=&#34;./Jared-Bill-slack.png&#34;
+        alt=&#34;Slack&#34;/&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bounce - AI Agent to answer the phone and screen spam callers</title>
+      <link>//localhost:1313/posts/bounce-screener/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/bounce-screener/</guid>
+      <description>&lt;p&gt;Meet Bounce - an AI Agent that lives on your iPhone. Most people use it to screen spammers.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s take a look at Bounce in action (turn your volume up)&lt;/p&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/8LzBOJW6DOY?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;YouTube: &lt;a href=&#34;https://youtu.be/8LzBOJW6DOY&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://youtu.be/8LzBOJW6DOY&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Computer Generated Tennis Highlights</title>
+      <link>//localhost:1313/posts/tennis-highlights/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/tennis-highlights/</guid>
+      <description>&lt;p&gt;Today, I&amp;rsquo;m sharing a system that takes a professional tennis match and generates highlights.&lt;/p&gt;
+&lt;p&gt;I think you will be impressed at how good the highlights are — remember this is fully a machine deciding where to cut the video - no human massaging of the output.&lt;/p&gt;
+&lt;p&gt;The trick in this case: Use the audio signals. We actually don’t use any image analysis / processing here — we use the audio track from the video footage.&lt;/p&gt;
+&lt;p&gt;Take a look:&lt;/p&gt;
+&lt;style&gt;
+.__h_video {
+   position: relative;
+   padding-bottom: 56.23%;
+   height: 0;
+   overflow: hidden;
+   width: 100%;
+   background: #000;
+}
+.__h_video img {
+   width: 100%;
+   height: auto;
+   color: #000;
+}
+.__h_video .play {
+   height: 72px;
+   width: 72px;
+   left: 50%;
+   top: 50%;
+   margin-left: -36px;
+   margin-top: -36px;
+   position: absolute;
+   cursor: pointer;
+}
+&lt;/style&gt;&lt;div class=&#34;s_video_simple __h_video&#34;&gt;
+          &lt;a href=&#34;https://vimeo.com/2.78810083e&amp;#43;08&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;
+            &lt;img src=&#34;https://i.vimeocdn.com/video/711924918-da7bd2a0ae7b0fbcce30e3f8fee8d0714034479bf38518e0e67eec9a0b7a11dd-d_640&#34; srcset=&#34;https://i.vimeocdn.com/video/711924918-da7bd2a0ae7b0fbcce30e3f8fee8d0714034479bf38518e0e67eec9a0b7a11dd-d_640 1x, https://i.vimeocdn.com/video/711924918-da7bd2a0ae7b0fbcce30e3f8fee8d0714034479bf38518e0e67eec9a0b7a11dd-d_640 2x&#34; alt=&#34;Computer Generated Tennis Highlights Novak &amp;amp; Nadal&#34;&gt;
+            &lt;div class=&#34;play&#34;&gt;
+              &lt;svg version=&#34;1&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 61 61&#34;&gt;&lt;circle cx=&#34;30.5&#34; cy=&#34;30.5&#34; r=&#34;30.5&#34; opacity=&#34;.8&#34; fill=&#34;#000&#34;&gt;&lt;/circle&gt;&lt;path d=&#34;M25.3 19.2c-2.1-1.2-3.8-.2-3.8 2.2v18.1c0 2.4 1.7 3.4 3.8 2.2l16.6-9.1c2.1-1.2 2.1-3.2 0-4.4l-16.6-9z&#34; fill=&#34;#fff&#34;&gt;&lt;/path&gt;&lt;/svg&gt;
+            &lt;/div&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fortnite Highlights</title>
+      <link>//localhost:1313/posts/twitch-fortnite-game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/twitch-fortnite-game/</guid>
+      <description>&lt;p&gt;I love ESPN highlight reels. What if a computer could automatically watch a game and create highlight reels all by itself.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;image-container&#34;&gt;&lt;span class=&#34;link&#34;&gt;&lt;img class=&#34;img&#34; src=&#34;http://img.youtube.com/vi/D4CLwSa9hRc/0.jpg&#34;
+        alt=&#34;Fortnite Highlight&#34;/&gt;&lt;/span&gt;&lt;span class=&#34;caption&#34;&gt;&lt;span class=&#34;title&#34;&gt;Fortnite Highlight&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;First — why would that be interesting? Well the top Twitch Streamers need to create content (play video games), show off their skills and create a community. What better way to create community than making a highlight reel of you playing the various people you compete with on Fortnite.&lt;/p&gt;
+&lt;p&gt;Think about it this way, how much would I love to have a clip of me playing basketball against LeBron James? I’d kill for one — I’d show it to everyone even though everyone would see LeBron dunk on me literally and figuratively.&lt;/p&gt;
+&lt;p&gt;Today’s kids play eSports and unlike me vs LeBron some of them can actually beat their heros — and have video evidence.&lt;/p&gt;
+&lt;p&gt;Here is the output of the system built for watching Fortnite from streamers like @Ninja and extracting highlight clips that get automatically tweeted out at the streamer and the competitor.&lt;/p&gt;
+&lt;p&gt;Youtube:&lt;/p&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/D4CLwSa9hRc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h4 id=&#34;so-what-are-we-seeing&#34;&gt;So what are we seeing:&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Computer watches a Twitch stream (e.g. 8 hours of Fortnite gameplay)&lt;/li&gt;
+&lt;li&gt;Computer finds the key moments (the kills)&lt;/li&gt;
+&lt;li&gt;Computer extracts the text on the screen (maybe @80% quality) to figure out who did what with what&lt;/li&gt;
+&lt;li&gt;Computer automatically creates the GIF and tweets it&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;what-is-the-input&#34;&gt;What is the input?&lt;/h4&gt;
+&lt;p&gt;A single 8 hour Fortnite stream.&lt;/p&gt;
+&lt;p&gt;That is what is impressive — there is no secondary data stream showing the key moments, there is no text feed showing what words appear on screen — all of this has to be extracted from the video.&lt;/p&gt;
+&lt;p&gt;A sincere thank you to Hemanth for the years of partnering together on fun projects. Hemanth is an incredible engineer and we have a few more up our sleeve.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>OneShare - Send Screenshots/Links etc from Phone to your Email/Laptop in 1 tap.</title>
+      <link>//localhost:1313/posts/oneshare/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/oneshare/</guid>
+      <description>&lt;p&gt;In my day to day, working on apps — I am constantly taking screenshots or videos — be it of bugs in our app or great flows in other apps and I need a way to easily get them off my phone.&lt;/p&gt;
+&lt;p&gt;Historically I’ve used AirDrop or emailed the files to myself - typing out my email address each time. But now, I use OneShare.&lt;/p&gt;
+&lt;h3 id=&#34;problem&#34;&gt;Problem:&lt;/h3&gt;
+&lt;p&gt;Get photos/videos/links/tweets/files off my phone and onto my computer / into my workflow.&lt;/p&gt;
+&lt;h3 id=&#34;solution-oneshare&#34;&gt;Solution: OneShare&lt;/h3&gt;
+&lt;p&gt;It’s a dead simple app intended to reduce the steps and allow me to 1 tap from the share screen and know the file/link/tweet/photo/video is in my email for later processing.&lt;/p&gt;
+&lt;p&gt;It saves me time and annoyance — so we packaged it up and put it in the App Store&lt;/p&gt;
+&lt;p&gt;Demo Video:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.youtube.com/watch?v=tCJqaqJC6o0&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;img  src=&#34;http://img.youtube.com/vi/tCJqaqJC6o0/0.jpg&#34;
+        alt=&#34;Demo Video&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I&amp;rsquo;d love your feedback on how we can make the app better for you. Our current top request boils down to making an AirDrop replacement &amp;ndash; something that always works &amp;ndash; and works cross platform (Android to Mac, iPhone to Windows).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Predicting Crop Yields from Satellite imagery</title>
+      <link>//localhost:1313/posts/sugarcane/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/sugarcane/</guid>
+      <description>&lt;p&gt;Using Machine Learning, we developed a method to predict sugar cane crop yields in Brazil for the 13 different processing mills days before the bi-weekly official crop yield report.&lt;/p&gt;
+&lt;h4 id=&#34;project-objectives&#34;&gt;Project Objectives:&lt;/h4&gt;
+&lt;script type=&#34;text/javascript&#34; src= &#39;/js/pdf-js/build/pdf.js&#39;&gt;&lt;/script&gt;
+
+&lt;style&gt;
+  #embed-pdf-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 20vh;
+     
+  }
+  
+  .pdf-canvas {
+    border: 1px solid black;
+    direction: ltr;
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  #the-canvas {
+    border: 1px solid black;
+    direction: ltr;
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  
+  .pdf-loadingWrapper {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+  }
+  
+  .pdf-loading {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #d2d0d0;;
+    border-radius: 50%;
+    border-top-color: #383838;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+  }
+  
+  
+  
+  
+  
+  #overlayText {
+    word-wrap: break-word;
+    display: grid;
+    justify-content: end;
+  }
+  
+  #overlayText a {
+    position: relative;
+    top: 10px;
+    right: 4px;
+    color: #000;
+    margin: auto;
+    background-color: #eeeeee;
+    padding: 0.3em 1em;
+    border: solid 2px;
+    border-radius: 12px;
+    border-color: #00000030;
+    text-decoration: none;
+  }
+  
+  #overlayText svg {
+    height: clamp(1em, 2vw, 1.4em);
+    width:  clamp(1em, 2vw, 1.4em);
+  }
+  
+  
+  
+  @keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  @-webkit-keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  &lt;/style&gt;&lt;div class=&#34;embed-pdf-container&#34; id=&#34;embed-pdf-container-b725a4d3&#34;&gt;
+    &lt;div class=&#34;pdf-loadingWrapper&#34; id=&#34;pdf-loadingWrapper-b725a4d3&#34;&gt;
+        &lt;div class=&#34;pdf-loading&#34; id=&#34;pdf-loading-b725a4d3&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;overlayText&#34;&gt;
+      &lt;a href=&#34;./AgriculturalFundProjectPDF.pdf&#34; aria-label=&#34;Download&#34; download&gt;
+        &lt;svg aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 18 18&#34;&gt;
+            &lt;path d=&#34;M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z&#34; /&gt;
+        &lt;/svg&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;canvas class=&#34;pdf-canvas&#34; id=&#34;pdf-canvas-b725a4d3&#34;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;pdf-paginator&#34; id=&#34;pdf-paginator-b725a4d3&#34;&gt;
+    &lt;button id=&#34;pdf-prev-b725a4d3&#34;&gt;Previous&lt;/button&gt;
+    &lt;button id=&#34;pdf-next-b725a4d3&#34;&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
+    &lt;span&gt;
+      &lt;span class=&#34;pdf-pagenum&#34; id=&#34;pdf-pagenum-b725a4d3&#34;&gt;&lt;/span&gt; / &lt;span class=&#34;pdf-pagecount&#34; id=&#34;pdf-pagecount-b725a4d3&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+    &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-b725a4d3&#34; href=&#34;./AgriculturalFundProjectPDF.pdf&#34;&gt;[pdf]&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;noscript&gt;
+View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-b725a4d3&#34; href=&#34;./AgriculturalFundProjectPDF.pdf&#34;&gt;here&lt;/a&gt;.
+&lt;/noscript&gt;
+
+&lt;script type=&#34;text/javascript&#34;&gt;
+    (function(){
+    var url = &#39;.\/AgriculturalFundProjectPDF.pdf&#39;;
+
+    var hidePaginator = &#34;&#34; === &#34;true&#34;;
+    var hideLoader = &#34;&#34; === &#34;true&#34;;
+    var selectedPageNum = parseInt(&#34;&#34;) || 1;
+
+    
+    var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+
+    
+    if (pdfjsLib.GlobalWorkerOptions.workerSrc == &#39;&#39;)
+      pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;\/\/localhost:1313\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;
+
+    
+    var pdfDoc = null,
+        pageNum = selectedPageNum,
+        pageRendering = false,
+        pageNumPending = null,
+        scale = 3,
+        canvas = document.getElementById(&#39;pdf-canvas-b725a4d3&#39;),
+        ctx = canvas.getContext(&#39;2d&#39;),
+        paginator = document.getElementById(&#34;pdf-paginator-b725a4d3&#34;),
+        loadingWrapper = document.getElementById(&#39;pdf-loadingWrapper-b725a4d3&#39;);
+
+
+    
+    showPaginator();
+    showLoader();
+
+    
+
+    function renderPage(num) {
+      pageRendering = true;
+      
+      pdfDoc.getPage(num).then(function(page) {
+        var viewport = page.getViewport({scale: scale});
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
+
+        
+        var renderContext = {
+          canvasContext: ctx,
+          viewport: viewport
+        };
+        var renderTask = page.render(renderContext);
+
+        
+        renderTask.promise.then(function() {
+          pageRendering = false;
+          showContent();
+
+          if (pageNumPending !== null) {
+            
+            renderPage(pageNumPending);
+            pageNumPending = null;
+          }
+        });
+      });
+
+      
+      document.getElementById(&#39;pdf-pagenum-b725a4d3&#39;).textContent = num;
+    }
+
+    
+
+    function showContent() {
+      loadingWrapper.style.display = &#39;none&#39;;
+      canvas.style.display = &#39;block&#39;;
+    }
+
+    
+
+    function showLoader() {
+      if(hideLoader) return
+      loadingWrapper.style.display = &#39;flex&#39;;
+      canvas.style.display = &#39;none&#39;;
+    }
+
+    
+
+    function showPaginator() {
+      if(hidePaginator) return
+      paginator.style.display = &#39;block&#39;;
+    }
+
+    
+
+    function queueRenderPage(num) {
+      if (pageRendering) {
+        pageNumPending = num;
+      } else {
+        renderPage(num);
+      }
+    }
+
+    
+
+    function onPrevPage() {
+      if (pageNum &lt;= 1) {
+        return;
+      }
+      pageNum--;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById(&#39;pdf-prev-b725a4d3&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+
+    
+
+    function onNextPage() {
+      if (pageNum &gt;= pdfDoc.numPages) {
+        return;
+      }
+      pageNum++;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById(&#39;pdf-next-b725a4d3&#39;).addEventListener(&#39;click&#39;, onNextPage);
+
+    
+
+    pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+      pdfDoc = pdfDoc_;
+      var numPages = pdfDoc.numPages;
+      document.getElementById(&#39;pdf-pagecount-b725a4d3&#39;).textContent = numPages;
+
+      
+      if(pageNum &gt; numPages) {
+        pageNum = numPages
+      }
+
+      
+      renderPage(pageNum);
+    });
+    })();
+&lt;/script&gt;
+
+&lt;h4 id=&#34;whathow&#34;&gt;What/How:&lt;/h4&gt;
+&lt;p&gt;Below see how we are analyzing the outputs &amp;ndash; the NDVI shows the diff we see between multiple dates &amp;ndash; which can indicate crop harvest. To get this, we have to align images, do the NDVI calculation (non-trivial), determine the area, and then use historical crop yield actuals to determine what we think this area represents in terms of yield AND THEN build a model so we can look at other harvested areas and predict what the yield is like to be. Here we are looking at &amp;lt; 20 square miles &amp;ndash; but we are doing this on the order of 13,000 square km. Trickiest part? Cloud coverage.&lt;/p&gt;
+&lt;h4 id=&#34;example-output&#34;&gt;Example output:&lt;/h4&gt;
+&lt;div class=&#34;embed-pdf-container&#34; id=&#34;embed-pdf-container-48a06065&#34;&gt;
+    &lt;div class=&#34;pdf-loadingWrapper&#34; id=&#34;pdf-loadingWrapper-48a06065&#34;&gt;
+        &lt;div class=&#34;pdf-loading&#34; id=&#34;pdf-loading-48a06065&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;overlayText&#34;&gt;
+      &lt;a href=&#34;./Agriculture-analysisPDF.pdf&#34; aria-label=&#34;Download&#34; download&gt;
+        &lt;svg aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 18 18&#34;&gt;
+            &lt;path d=&#34;M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z&#34; /&gt;
+        &lt;/svg&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;canvas class=&#34;pdf-canvas&#34; id=&#34;pdf-canvas-48a06065&#34;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;pdf-paginator&#34; id=&#34;pdf-paginator-48a06065&#34;&gt;
+    &lt;button id=&#34;pdf-prev-48a06065&#34;&gt;Previous&lt;/button&gt;
+    &lt;button id=&#34;pdf-next-48a06065&#34;&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
+    &lt;span&gt;
+      &lt;span class=&#34;pdf-pagenum&#34; id=&#34;pdf-pagenum-48a06065&#34;&gt;&lt;/span&gt; / &lt;span class=&#34;pdf-pagecount&#34; id=&#34;pdf-pagecount-48a06065&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+    &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-48a06065&#34; href=&#34;./Agriculture-analysisPDF.pdf&#34;&gt;[pdf]&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;noscript&gt;
+View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-48a06065&#34; href=&#34;./Agriculture-analysisPDF.pdf&#34;&gt;here&lt;/a&gt;.
+&lt;/noscript&gt;
+
+&lt;script type=&#34;text/javascript&#34;&gt;
+    (function(){
+    var url = &#39;.\/Agriculture-analysisPDF.pdf&#39;;
+
+    var hidePaginator = &#34;&#34; === &#34;true&#34;;
+    var hideLoader = &#34;&#34; === &#34;true&#34;;
+    var selectedPageNum = parseInt(&#34;&#34;) || 1;
+
+    
+    var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+
+    
+    if (pdfjsLib.GlobalWorkerOptions.workerSrc == &#39;&#39;)
+      pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;\/\/localhost:1313\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;
+
+    
+    var pdfDoc = null,
+        pageNum = selectedPageNum,
+        pageRendering = false,
+        pageNumPending = null,
+        scale = 3,
+        canvas = document.getElementById(&#39;pdf-canvas-48a06065&#39;),
+        ctx = canvas.getContext(&#39;2d&#39;),
+        paginator = document.getElementById(&#34;pdf-paginator-48a06065&#34;),
+        loadingWrapper = document.getElementById(&#39;pdf-loadingWrapper-48a06065&#39;);
+
+
+    
+    showPaginator();
+    showLoader();
+
+    
+
+    function renderPage(num) {
+      pageRendering = true;
+      
+      pdfDoc.getPage(num).then(function(page) {
+        var viewport = page.getViewport({scale: scale});
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
+
+        
+        var renderContext = {
+          canvasContext: ctx,
+          viewport: viewport
+        };
+        var renderTask = page.render(renderContext);
+
+        
+        renderTask.promise.then(function() {
+          pageRendering = false;
+          showContent();
+
+          if (pageNumPending !== null) {
+            
+            renderPage(pageNumPending);
+            pageNumPending = null;
+          }
+        });
+      });
+
+      
+      document.getElementById(&#39;pdf-pagenum-48a06065&#39;).textContent = num;
+    }
+
+    
+
+    function showContent() {
+      loadingWrapper.style.display = &#39;none&#39;;
+      canvas.style.display = &#39;block&#39;;
+    }
+
+    
+
+    function showLoader() {
+      if(hideLoader) return
+      loadingWrapper.style.display = &#39;flex&#39;;
+      canvas.style.display = &#39;none&#39;;
+    }
+
+    
+
+    function showPaginator() {
+      if(hidePaginator) return
+      paginator.style.display = &#39;block&#39;;
+    }
+
+    
+
+    function queueRenderPage(num) {
+      if (pageRendering) {
+        pageNumPending = num;
+      } else {
+        renderPage(num);
+      }
+    }
+
+    
+
+    function onPrevPage() {
+      if (pageNum &lt;= 1) {
+        return;
+      }
+      pageNum--;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById(&#39;pdf-prev-48a06065&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+
+    
+
+    function onNextPage() {
+      if (pageNum &gt;= pdfDoc.numPages) {
+        return;
+      }
+      pageNum++;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById(&#39;pdf-next-48a06065&#39;).addEventListener(&#39;click&#39;, onNextPage);
+
+    
+
+    pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+      pdfDoc = pdfDoc_;
+      var numPages = pdfDoc.numPages;
+      document.getElementById(&#39;pdf-pagecount-48a06065&#39;).textContent = numPages;
+
+      
+      if(pageNum &gt; numPages) {
+        pageNum = numPages
+      }
+
+      
+      renderPage(pageNum);
+    });
+    })();
+&lt;/script&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ramble</title>
+      <link>//localhost:1313/posts/ramble/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/ramble/</guid>
+      <description>&lt;p&gt;Ramble AI is a on device meeting note taker. Ramble can listen-in to any meeting WITHOUT needing a bot. Ramble then summaries and extracts a list of all the commitments/follow-ups that were discussed making it easy to stay on top of the work that needs to get done.&lt;/p&gt;
+&lt;p&gt;Users love Ramble for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The ability to go backwards in time (up to 1hr)&lt;/li&gt;
+&lt;li&gt;The summaries&lt;/li&gt;
+&lt;li&gt;The extracted follow-ups&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See Ramble.ai for more details and to give it a try.&lt;/p&gt;
+&lt;p&gt;&lt;img  src=&#34;./ramble1-b.png&#34;
+        alt=&#34;Overview&#34;/&gt;&lt;/p&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/5lpBXBGgq6M?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Scribble - Talk into any text field</title>
+      <link>//localhost:1313/posts/scribble/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/scribble/</guid>
+      <description>&lt;p&gt;Avocado is built to deliver outcomes. Whether it is for teamwork or your work, voice + transcription ensures the job gets done inhumanly fast. Its the easiest, fastest way to communicate and get simple tasks done.&lt;/p&gt;
+&lt;p&gt;Avocado is built to deliver outcomes. Whether it is for teamwork or your work, voice + transcription ensures the job gets done inhumanly fast. Its the easiest, fastest way to communicate and get simple tasks done.&lt;/p&gt;
+&lt;h3 id=&#34;turning-words-into-actions&#34;&gt;Turning Words into Actions&lt;/h3&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h4 id=&#34;top-uses&#34;&gt;Top uses:&lt;/h4&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h4 id=&#34;talk-to-your-calendar&#34;&gt;Talk to your calendar&lt;/h4&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h4 id=&#34;voice-reminders&#34;&gt;Voice reminders&lt;/h4&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h4 id=&#34;take-a-note&#34;&gt;Take a note&lt;/h4&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h4 id=&#34;the-computer-in-your-ear&#34;&gt;The Computer in your ear&lt;/h4&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h4 id=&#34;works-on-desktop&#34;&gt;Works on desktop&lt;/h4&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h4 id=&#34;speak-to-avocado---message--action-appears-in-slack&#34;&gt;Speak to Avocado -&amp;gt; Message &amp;amp; action appears in Slack&lt;/h4&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Learn more at: &lt;a href=&#34;http://plusavocado.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;http://plusavocado.com/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Transportation, Toys or Trash</title>
+      <link>//localhost:1313/posts/scooter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/scooter/</guid>
+      <description>&lt;p&gt;In San Francisco, I have been amazed at how quickly Scooters have been adopted. They are everywhere and are simultaneously both loved and hated. Wouldn’t it be fun to have an inside look at the ride data from Lime or Bird? I’ve loved the visualizations, stories and insights gleaned from the Uber data in NYC. So, the Uber data as an example, I thought I’d try gather the data myself. Let’s see what we can find.&lt;/p&gt;
+&lt;p&gt;Read my full write-up with graphics and links to the code at: &lt;a href=&#34;https://medium.com/@wasauce/transportation-toys-or-trash-19b8cab985ad#c48b-eeff2cad3e15&#34;target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://medium.com/@wasauce/transportation-toys-or-trash-19b8cab985ad#c48b-eeff2cad3e15&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

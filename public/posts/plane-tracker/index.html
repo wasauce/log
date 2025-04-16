@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8"><meta name="generator" content="Hugo 0.128.0"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>Airplane Tracker&nbsp;&ndash;&nbsp;Wferrell Projects</title><link rel="stylesheet" href="/css/core.min.63f706677e61b4ee62b8daf083358d3bbf8ac8ab03c7d171af3180fab3a3ebb83efb79fb98674f13dde6db11de2bf694.css" integrity="sha384-Y/cGZ35htO5iuNrwgzWNO7&#43;KyKsDx9FxrzGA&#43;rOj67g&#43;&#43;3n7mGdPE93m2xHeK/aU"><meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Airplane Tracker" /><body><section id="header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><span class="site name">Wferrell Projects</span></a></span>
+        <span class="header right-side"></span></div></section><section id="content"><div class="article-container"><section class="article header">
+    <h1 class="article title">Airplane Tracker</h1></section><article class="article markdown-body"><p>Software for me has always been about the web. First it was webpages, then web apps, iPhone apps, now Mac apps. But what about building something that moves in the physical world.</p>
+<p>For this project, I wanted to combine my interest in the airplanes flying overhead (I live near SFO and OAK) &ndash; and build my first &ldquo;robot&rdquo; that moves in the real world.</p>
+<!-- raw HTML omitted -->
+<p>First, the plane tracker lives in a room with no windows &ndash; so no this didn’t shine in any eyes nor distract any pilots.</p>
+<h4 id="so-what-are-we-seeing">So what are we seeing:</h4>
+<ol>
+<li>The Raspberry Pi is using <a href="https://www.faa.gov/nextgen/programs/adsb/"target="_blank" rel="noopener noreferrer">ADS-B</a> to track flights.</li>
+</ol>
+<!-- raw HTML omitted -->
+<ol start="2">
+<li>The code (see above a screenshot of the log output) is constantly searching for nearby flights (via the SRD on my roof). Once it finds a plane, it gets the reported lat/long and then calculates the angle of elevation from the position of the RaspberrPi.</li>
+<li>With this information, and knowing the orientation of the RaspberrPi (i.e. is the Pan/Tilt when zeroed out X degrees off North) &ndash; now we can calculate the Pan degrees and Tilt degrees to point at the current position of the Airplane.</li>
+<li>This code runs in a loop until the Airplane is out of range, then it finds the next one.</li>
+</ol>
+<p>Take a look in this video:</p>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/q5BcP4a-B4w?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div></article>
+</div>
+<div class="article bottom"><section class="article navigation"><p><a class="link" href="/posts/avocado/"><span class="iconfont icon-article"></span>Avocado - Voice AI for Outcomes</a></p></section></div></section><section id="footer"><div class="footer-wrap">
+    <p class="copyright">Wferrell Projects</p>
+    <p class="powerby"><span>Powered&nbsp;by&nbsp;</span><a href="https://gohugo.io" 
+        target="_blank" rel="noopener noreferrer">Hugo</a><span>&nbsp;&amp;&nbsp;</span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank" rel="noopener noreferrer">Notepadium</a></p></div></section>
+  
+
+</body>
+
+</html>
